@@ -1,0 +1,70 @@
+body{
+    background: white;
+    color: black;
+    font-family: 'Poppins', ui-sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.headerText{
+    font-size: 50px;
+}
+.score{
+    font-size: 20px;
+}
+#gameMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 30px;
+}
+.item{
+    border-radius: 10px;
+    border: 0;
+    background: #e0e0e0;
+    width: 200px;
+    height: 300px;
+    transition-duration: 0.5s;
+}
+.itemMain{
+    width: 240px;
+    height: 360px;
+}
+#rockImage,#paperImage,#scissorsImage{
+    color: white;
+    width: 100px;
+    height: auto;
+    transition-duration: 0.5s;
+}
+.itemMain #rockImage,.itemMain #paperImage,.itemMain #scissorsImage{
+    width: 120px;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+.confirm,.restart{
+    border-radius: 5px;
+    font-family: 'Poppins', ui-sans-serif;
+    width: 100px;
+    height: 25px;
+}
+.confirm{
+    background-color: #e0e0e0;
+    border: 2px solid #000000;
+}
+.restart{
+    background-color: #000000;
+    color: white;
+    border: 0;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
