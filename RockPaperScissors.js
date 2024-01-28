@@ -52,8 +52,8 @@ function playRound(){
 
 let confirm = document.getElementById("confirm")
 confirm.onclick = (event) =>{
-    if(playerScore === 10 || computerScore === 10){
-        if(playerScore === 10){
+    if(playerScore === 5 || computerScore === 5){
+        if(playerScore === 5){
             score.innerHTML = `You win!`
         }
         else{
